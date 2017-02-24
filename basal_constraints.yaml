@@ -1,0 +1,601 @@
+compartment: e
+compounds:
+- id: cpd_na1
+  lower: -1000
+  upper: 1000
+- id: cpd_pro-L
+  cpd_name: L-Proline
+  lower: 0
+  upper: 1000
+- id: cpd_h2o2
+  cpd_name: Hydrogen Peroxide
+  lower: 0
+  upper: 1000
+- id: cpd_damp
+  cpd_name: dAMP
+  lower: 0
+  upper: 1000
+- id: cpd_dcmp
+  cpd_name: dCMP
+  lower: 0
+  upper: 1000
+- id: cpd_dgmp
+  cpd_name: dGMP
+  lower: 0
+  upper: 1000
+- id: cpd_dtmp
+  cpd_name: dTMP
+  lower: 0
+  upper: 1000
+- id: cpd_met-L
+  cpd_name: Methionine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_adn
+  cpd_name: Adenosine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_dad-2
+  cpd_name: Deoxyadneosine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_dgsn
+  cpd_name: Deoxyguanosine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_glyc-R
+  cpd_name: (R)-Glycerate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_indole
+  cpd_name: Indole
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_ura
+  cpd_name: Uracil
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_CrOH3
+  cpd_name: Cr(OH)3
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_ac
+  cpd_name: Acetate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_acgam
+  cpd_name: N-Acetyl-D-glucosamine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_ala-D
+  cpd_name: D-Alanine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_ala-L
+  cpd_name: L-Alanine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_asp-L
+  cpd_name: L-Aspartate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_bgl
+  cpd_name: cellobiose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_ca2
+  cpd_name: Calcium
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_cl
+  cpd_name: Chloride
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_co2
+  cpd_name: CO2
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_cobalt3
+  lower: 0
+  upper: 1000
+- id: cpd_cobalt2
+  cpd_name: Co2+
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_cro4
+  cpd_name: chromate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_cu2
+  cpd_name: Cu2+
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_cytd
+  cpd_name: Cytidine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Nucleoside
+- id: cpd_dcyt
+  cpd_name: Deoxycytidine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Nucleoside
+- id: cpd_dms
+  cpd_name: Dimethyl sulfide
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_dmso
+  cpd_name: Dimethyl sulfoxide
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_dna
+  cpd_name: DNA
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Nucleoside
+- id: cpd_dodcan
+  cpd_name: Dodecanoic acid (neutral)
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Fatty Acids
+- id: cpd_duri
+  cpd_name: Deoxyuridine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Nucleoside
+- id: cpd_fe2
+  cpd_name: Fe2+
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_fe3
+  cpd_name: Fe3+
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_for
+  cpd_name: Formate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_fum
+  cpd_name: Fumarate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_galactan
+  cpd_name: Galactan
+  lower: 0
+  upper: 1000
+  group: Carbon Source
+- id: cpd_gal
+  cpd_name: D-Galactose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_glc-D
+  cpd_name: D-Glucose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_glu-L
+  cpd_name: L-Glutamate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_gly
+  cpd_name: Glycine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_gly-asp-L
+  cpd_name: glycyl-L-aspartic acid
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_gly-glu-L
+  cpd_name: glycyl-L-glutamic acid
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_glyc
+  cpd_name: Glycerol
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_glyclt
+  cpd_name: Glycolate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_h
+  cpd_name: H+
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_h2o
+  cpd_name: H2O
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_h2s
+  cpd_name: Hydrogen sulfide
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_hdcan
+  cpd_name: hexadecanoate (n-C16:0) (neutral)
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Fatty Acids
+- id: cpd_ile-L
+  cpd_name: L-Isoleucine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_k
+  cpd_name: K+
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_lac-D
+  cpd_name: D-Lactate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_lac-L
+  cpd_name: L-Lactate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_lami
+  cpd_name: laminarin
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_leu-L
+  cpd_name: L-Leucine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_mal-L
+  cpd_name: L-Malate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_panose
+  cpd_name: Panose
+  lower: 0
+  upper: 1000
+  group: Carbon Source
+- id: cpd_malt
+  cpd_name: Maltose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_malthp
+  cpd_name: Maltoheptaose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_malthx
+  cpd_name: Maltohexaose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_maltpt
+  cpd_name: Maltopentaose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_malttr
+  cpd_name: Maltotriose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_maltttr
+  cpd_name: Maltotetraose
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_mg2
+  cpd_name: Mg
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_mn2
+  cpd_name: Mn2+
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_mn4o
+  cpd_name: Manganese(IV) oxide
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_nh4
+  cpd_name: Ammonia
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_no2
+  cpd_name: Nitrite
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_no3
+  cpd_name: Nitrate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_o2
+  cpd_name: O2
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_ocdcan
+  cpd_name: octadecanoate (n-C18:0) (neutral)
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Fatty Acids
+- id: cpd_pi
+  cpd_name: Phosphate
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Small Molecule
+- id: cpd_pmcoa
+  cpd_name: Pimeloyl-CoA
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: 'No'
+  group: Carbon Source
+- id: cpd_ptrc
+  cpd_name: Putrescine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_pyr
+  cpd_name: Pyruvate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_ser-L
+  cpd_name: L-Serine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_so3
+  cpd_name: Sulfite
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_so4
+  cpd_name: Sulfate
+  lower: -1000
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_succ
+  cpd_name: Succinate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Carbon Source
+- id: cpd_thr-L
+  cpd_name: L-Threonine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_tma
+  cpd_name: Trimethylamine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_tmao
+  cpd_name: Trimethylamine N-oxide
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_tsul
+  cpd_name: Thiosulfate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_ttdcan
+  cpd_name: tetradecanoate (C14:0) (neutral)
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Fatty Acids
+- id: cpd_tttnt
+  cpd_name: tetrathionate
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_tyr-L
+  cpd_name: L-Tyrosine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_urdio
+  cpd_name: Uranium dioxide
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_uri
+  cpd_name: Uridine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Nucleoside
+- id: cpd_urnyl
+  cpd_name: Uranyl
+  lower: 0
+  upper: 1000
+  sole_carbon_source: ''
+  group: Electron Acceptor
+- id: cpd_val-L
+  cpd_name: L-Valine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'Yes'
+  group: Amino Acid
+- id: cpd_thymd
+  cpd_name: Thymidine
+  lower: 0
+  upper: 1000
+- id: cpd_mobd
+  cpd_name: Molybdate
+  lower: -1000
+  upper: 1000
+- id: cpd_cbl1
+  cpd_name: Cobalamin
+  lower: -1000
+  upper: 1000
+- id: cpd_ppa
+  cpd_name: propionate
+  lower: 0
+  upper: 1000
+- id: cpd_urea
+  cpd_name: Urea
+  lower: 0
+  upper: 1000
+- id: cpd_chitin
+  cpd_name: Chitin
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_lys-L
+  cpd_name: L-lysine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_trp-L
+  cpd_name: tryptophan
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_xan
+  cpd_name: xanthine
+  lower: 0
+  upper: 1000
+  sole_carbon_source: 'No'
+- id: cpd_etoh
+  cpd_name: ethanol
+  lower: 0
+  upper: 1000
+- id: cpd_akg
+  cpd_name: 2-oxoglutarate
+  lower: 0
+  upper: 1000
+- id: cpd_gln-L
+  cpd_name: Glutamine
+  lower: 0
+  upper: 1000
+- id: cpd_asn-L
+  cpd_name: Asparagine
+  lower: 0
+  upper: 1000
+- id: cpd_ins
+  cpd_name: inosine
+  lower: 0
+  upper: 1000
+- id: cpd_thym
+  cpd_name: Thymine
+  lower: 0
+  upper: 1000
+- id: cpd_hxan
+  cpd_names: hypoxanthine
+  lower: 0
+  upper: 1000
