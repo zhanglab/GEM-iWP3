@@ -5,7 +5,7 @@ Files in this repository represent the GEM of _Shewanella piezotolerans_ WP3. A 
 >Keith Dufault-Thompson, Huahua Jian, Ruixue Cheng, Jiefu Li, Fengping Wang, and Ying Zhang. Genome-Scale Model of Shewanella piezotolerans Simulates Mechanisms of Metabolic Diversity and Energy Conservation. _mSystems_, _in review_, 2017
 
 ##### List of files
-* iWP3.yaml:
+* model.yaml:
   >YAML configuration file for PSAMM. Designates the biomass equation and file paths to the reaction database, compound database, model reactions (defines a list of reactions included in the model), and media definition (defines exchange reactions and constraints). The model contains no special constraints to internal reactions, and the internal reaction constrains will be assigned in [PSAMM](https://zhanglab.github.io/psamm/) based on reversibility of reactions.
 
 * reactions.yaml:

@@ -1,0 +1,10 @@
+---
+name: iWP3, Genome-scale metabolic model of Shewanella piezotolerans WP3
+biomass: Core_Biomass
+reactions:
+    - include: reactions.yaml
+media:
+    - include: basal_constraints.yaml
+compounds:
+    - include: compounds.tsv
+      format: tsv
