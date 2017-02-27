@@ -821,7 +821,7 @@
   category: Mapping And
 - id: ASNN
   name: L-asparaginase
-  genes: swp_2782 and swp_2470
+  genes: swp_2782 or swp_2470
   equation: '|cpd_asn-L[c]| + |cpd_h2o[c]| => |cpd_asp-L[c]| + |cpd_nh4[c]|'
   subsystem: Alanine and Aspartate Metabolism
   ec: 1.20.4.1
