@@ -2,7 +2,7 @@
 
 Files in this repository represent the GEM of _Shewanella piezotolerans_ WP3. A manuscript associated with this repository is currently under review at the ASM journal _mSystems_:
 
->Keith Dufault-Thompson, Huahua Jian, Ruixue Cheng, Jiefu Li, Fengping Wang, and Ying Zhang. Genome-Scale Model of Shewanella piezotolerans Simulates Mechanisms of Metabolic Diversity and Energy Conservation. _mSystems_, _in review_, 2017
+>A Genome-Scale Model of Shewanella piezotolerans Simulates Mechanisms of Metabolic Diversity and Energy Conservation; Keith Dufault-Thompson, Huahua Jian, Ruixue Cheng, Jiefu Li, Fengping Wang, Ying Zhang; mSystems Mar 2017, 2 (2) e00165-16; DOI: 10.1128/mSystems.00165-16
 
 ##### List of files
 * model.yaml:
